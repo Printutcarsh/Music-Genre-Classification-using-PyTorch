@@ -8,7 +8,17 @@
 
 ## Implementation Guide
 <ul>
-  <li> First of all, we have to do some data preprocessing and extract some useful information from our music data so that we can use it for training our model. For that run prepare_dataset.py.</li>
-  <li> Next there are 2 custom model(one is cnn based and the other is rnn based) built using PyTorch and it is trained on the preprocessed data. 
-    For this run audio_cnn_pytorch for cnn based model or audio_rnn_pytorch for rnn based model.</li>
+  <li> First of all, we have to do some data preprocessing and extract some useful information from our music data so that we can use it for training our model. For that run:-
+   
+   ```python prepare_dataset.py```
+  </li>
+  <li> Next there are 2 custom model(one is CNN based and the other is RNN based) built using PyTorch and it is trained on the preprocessed data. 
+     For CNN based model run:-
+  
+  ```python audio_rnn_pytorch.py```
+     
+  and for RNN based model run:-
+  
+  ``` python audio_rnn_pytorch.py```
+  </li>
 </ul>
